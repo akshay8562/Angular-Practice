@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="js.js"></script>
+</head>
+
+<body>
+    <ul>
+        <li> <a onclick="ClickCarName('thar')">Thar</a><input type="hidden" id="thar" value="0"></li>
+        <li><a onclick="ClickCarName('scorpio')">Scorpio</a> <input type="hidden" id="scorpio" value="0"></li>
+        <li><a onclick="ClickCarName('bolero')">Bolero</a><input type="hidden" id="bolero" value="0"></li>
+        <li><a onclick="ClickCarName('marazzo')">Marazzo</a><input type="hidden" id="marazzo" value="0"></li>
+        <li><a onclick="ClickCarName('alturas')">Alturas</a><input type="hidden" id="alturas" value="0"></li>
+    </ul>
+    <br>
+    <div id="cars">
+        <img src="Images/thar.jpg" width="400" height="300" onclick="ClickCount('thar')">
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td>Name Of The Car :</td>
+                <th id="Car">THAR</th>
+            </tr>
+        </table>
+
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td>Number of Clicks:</td>
+                <th id="countr">0</th>
+            </tr>
+        </table>
+    </div>
+</body>
+
+
+</html>
